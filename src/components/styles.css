@@ -1,0 +1,22 @@
+@keyframes glow-move {
+    0% {
+        background-position: -100% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.animate-glow-move {
+    animation: glow-move 3s linear infinite;
+}
+
+/* #smooth-wrapper {
+    height: 100%;
+    overflow: hidden
+}
+
+#smooth-content {
+    will-change: transform;
+} */
