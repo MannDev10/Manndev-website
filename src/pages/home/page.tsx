@@ -7,19 +7,9 @@ import React from "react";
 import { Colors } from "../../utilities/styles";
 import StackedCards from "../../components/stackedCard";
 import { Footer } from "../../components/footer";
+import { skillData } from '../../utilities/data'
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-
-const skills = [
-    { icon: '/images/js.png', label: 'Javascript' },
-    { icon: '/images/ts.png', label: 'Typescript' },
-    { icon: '/images/htmlcss.png', label: 'HTML & CSS' },
-    { icon: '/images/tailwind.png', label: 'Tailwind' },
-    { icon: '/images/react.png', label: 'React.js' },
-    { icon: '/images/next.png', label: 'Next.js' },
-    { icon: '/images/reactnative.png', label: 'React Native' },
-    { icon: '/images/expo.png', label: 'Expo' },
-]
 
 const HomePage = () => {
     React.useEffect(() => {
@@ -144,7 +134,7 @@ const HomePage = () => {
                 </div>
                 <Grid container spacing={{ md: 5, sm: 3, xs: 3 }}>
                     {
-                        skills.map((item, index) => (
+                        skillData.map((item, index) => (
                             <Grid size={{ md: 6, sm: 12, xs: 12 }} key={index}>
                                 <div
                                     className="w-full rounded-2xl flex flex-row items-center gap-5 p-5 grayscale-100 transition-all duration-200 hover:filter-none cursor-pointer hover:shadow-[0_0_15px_2px_rgba(255,255,255,0.6)] "

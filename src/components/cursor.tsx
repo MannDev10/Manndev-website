@@ -35,11 +35,11 @@ export default function GsapCursor() {
     return (
         <>
             <div
-                className="cursor fixed top-0 left-0 w-3 h-3 bg-white rounded-full pointer-events-none z-[9999]"
+                className="cursor fixed top-0 left-0 w-3 h-3 bg-white rounded-full pointer-events-none z-9999"
                 style={{ transform: "translate(-50%, -50%)" }}
             ></div>
             <div
-                className="cursor-follower fixed top-0 left-0 w-10 h-10 border border-white rounded-full pointer-events-none z-[9998]"
+                className="cursor-follower fixed top-0 left-0 w-10 h-10 border border-white rounded-full pointer-events-none z-9998"
                 style={{ transform: "translate(-50%, -50%)", boxShadow: '0 0 15px rgba(255, 255, 255, 0.6)', mixBlendMode: 'difference' }}
             ></div>
         </>
