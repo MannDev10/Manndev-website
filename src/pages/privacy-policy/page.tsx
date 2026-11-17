@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
             <div className="max-w-3xl mx-auto bg-[#1b1b1b] border border-[#333438] rounded-3xl p-6 sm:p-10 shadow-2xl">
                 <div className="mb-8">
                     <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-2">
-                        Privacy Policy
+                        BeaverPDF Privacy Policy
                     </h1>
                     <p className="text-sm text-neutral-400">
                         Last updated: October 25, 2026
